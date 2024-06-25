@@ -1,0 +1,99 @@
+{
+    "name": "Testing",
+    "maps": [
+        {
+            "name": "Some action map",
+            "id": "ff85d853-9f34-43b7-9f6a-241bc7469606",
+            "actions": [
+                {
+                    "name": "Pinches",
+                    "type": "Button",
+                    "id": "2b67851c-ab79-4120-871e-299e0d2b6580",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "New action",
+                    "type": "Value",
+                    "id": "80acd237-fd5e-40bb-999e-d2589f573178",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5a41cd5a-d9e9-437a-8bf0-9d13529aa426",
+                    "path": "<HandInteraction>{LeftHand}/pinchPose/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pinches",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9dc36d16-ca24-4067-9428-31869dade4e6",
+                    "path": "<HandInteraction>{RightHand}/pinchPose/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pinches",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "18954bb2-3d66-4fc7-8d4c-e74a6f51c720",
+                    "path": "<MetaAimHand>/middlePressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pinches",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "97cbf7c8-6374-4605-8ffd-e3969d0fd00e",
+                    "path": "<HandInteraction>{LeftHand}/pokePose/isTracked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Pinches",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "e5265aac-4f15-4bcd-a6c7-919de8b264a6",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Hands something",
+            "bindingGroup": "Hands something",
+            "devices": [
+                {
+                    "devicePath": "<HandInteractionPoses>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
