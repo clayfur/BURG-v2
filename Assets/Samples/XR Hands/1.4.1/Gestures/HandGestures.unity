@@ -548,7 +548,7 @@ MonoBehaviour:
       hand transform","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 544324468}
+    - {fileID: 619148105}
 --- !u!4 &508072036
 Transform:
   m_ObjectHideFlags: 0
@@ -564,11 +564,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &544324468 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6077509315870343761, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
-  m_PrefabInstance: {fileID: 1533311660}
-  m_PrefabAsset: {fileID: 0}
 --- !u!114 &577071357 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4103395466030174051, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
@@ -2104,7 +2099,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8626644969057682731, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
   m_PrefabInstance: {fileID: 1533311660}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 544324468}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bf93899325d5df74eb9176e097ee3d4f, type: 3}
@@ -6245,7 +6240,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7143353886403648717, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
       propertyPath: m_GestureEnded.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7143353886403648717, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
       propertyPath: m_GesturePerformed.m_PersistentCalls.m_Calls.Array.size
@@ -6261,7 +6256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7143353886403648717, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
       propertyPath: m_GestureEnded.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7143353886403648717, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
       propertyPath: m_GestureEnded.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -6274,7 +6269,7 @@ PrefabInstance:
     - target: {fileID: 7143353886403648717, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
       propertyPath: m_GestureEnded.m_PersistentCalls.m_Calls.Array.data[2].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 619148107}
     - target: {fileID: 7143353886403648717, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
       propertyPath: m_GesturePerformed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
       value: 2
@@ -6333,7 +6328,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7143353886403648717, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
       propertyPath: m_GestureEnded.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
-      value: set_enabled
+      value: TriggerUnityEvent
       objectReference: {fileID: 0}
     - target: {fileID: 7143353886403648717, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
       propertyPath: m_GesturePerformed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -6455,7 +6450,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7143353886403648717, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
       propertyPath: m_GestureEnded.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
-      value: UnityEngine.Behaviour, UnityEngine
+      value: Unity.VisualScripting.EventMachine`2[[Unity.VisualScripting.FlowGraph,
+        Unity.VisualScripting.Flow
+      objectReference: {fileID: 0}
+    - target: {fileID: 7143353886403648717, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
+      propertyPath: m_GestureEnded.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: Reset tracking
       objectReference: {fileID: 0}
     - target: {fileID: 7143353886403648717, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
       propertyPath: m_GesturePerformed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -6562,7 +6562,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7143353886403648717, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
       propertyPath: m_GesturePerformed.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
-      value: Tracking Acquired
+      value: Tracking
       objectReference: {fileID: 0}
     - target: {fileID: 7143353886403648717, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
       propertyPath: m_GestureEnded.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -6650,7 +6650,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7281332686201881222, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
       propertyPath: m_PoseUpdated.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7281332686201881222, guid: 12e7c6e2a052ca344a4b1b5616e1597c, type: 3}
       propertyPath: m_PoseUpdated.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
