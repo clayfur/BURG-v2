@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/HandGestures.unity
     guid: cd792f2302b8b6f4c9f264e2a4503e15
+  - enabled: 1
+    path: Assets/Scenes/Level 1.unity
+    guid: b5ddbcfb301c1ef4b819940f51355463
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 3a44cb8d554ff444d97446a76eb18df3, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 97ed33ee30c60f741b0da711434acf30, type: 2}
