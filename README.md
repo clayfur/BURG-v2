@@ -1,5 +1,7 @@
 # BURG V2
 
+![Clip of demo](Clips/BURG_clip.gif)
+
 This is a protoype hand tracking based demo made for a project presentation used during my final year capstone review.
 
 ## Description
