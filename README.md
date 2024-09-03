@@ -6,7 +6,7 @@ This is a protoype hand tracking based demo made for a project presentation used
 
 ## Description
 
-This project is served as the research demonstraction for implementing hand tracking based interactions for the main multiplayer game.
+This project is served as the research demonstration for implementing hand tracking based interactions for the main multiplayer game.
 
 The demo was made under heavy time constraints and so utilises script machines to control the logic within the game.
 
